@@ -1,0 +1,23 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header {
+	width:1920px; 
+	height:136.02px;
+	display: flex;
+}
+.header-logo {
+	width:93.44px;
+	height:102.24px;
+	display:flex;
+	margin-left: 81px;
+}
+.links-nav {
+	width:86px;
+	height:43px;
+	text-decoration: none;
+	color: #E67816;
+	font-size: 32px;
+}
