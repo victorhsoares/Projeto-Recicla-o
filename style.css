@@ -2,22 +2,56 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-family: 'Roboto Slab', serif;
+	text-decoration: none;
 }
 header {
-	width:1920px; 
-	height:136.02px;
 	display: flex;
+	text-align: center;
+	justify-content: space-between;
 }
 .header-logo {
-	width:93.44px;
-	height:102.24px;
-	display:flex;
-	margin-left: 81px;
+	width:110px;
+	height:100px;
 }
 .links-nav {
-	width:86px;
-	height:43px;
-	text-decoration: none;
 	color: #E67816;
-	font-size: 32px;
+	font-size: 25px;
+	padding: 10px;
+}
+.firstboxMain{
+	display: flex;
+	justify-content: space-around;
+}
+.firstboxMain__title{
+	font-size: 28px;
+	color: green;
+}
+.firstboxMain__paragraph{
+	width: 650px;
+	height: 400px;
+	font-size: 13px;
+}
+.firstboxMain__subtitle{
+	font-size: 28px;
+	color: #E67816;
+	display: flex;
+}
+.secondboxMain{
+	background-image: url(assets/garoto-reciclando.jpg);
+}
+.secondboxMain__title{
+	font-size: 28px;
+	color: #fff;
+}
+.secondboxMain__backlist{
+	display: flex;
+	flex-direction: column;
+ }
+.secondboxMain__list{
+	font-size: 24px;
+	font-weight: bold;
+	color: #E67816;
+	background-color: #fff;
+	margin: 20px 10px 20px 30px;
 }
