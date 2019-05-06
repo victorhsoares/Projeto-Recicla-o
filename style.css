@@ -76,6 +76,7 @@ header {
 .thirdboxMain__title{
 	font-size: 38px;
 	color: #85C226;
+	height: 250px;
 }
 
 .thirdboxMain__graphic{
@@ -127,7 +128,6 @@ header {
 
 .fifthboxMain{
 	width: 100%;
-	/*justify-content: space-around;*/
 	background-color: #85C226;
 }
 
@@ -149,4 +149,40 @@ header {
 
 .fifthboxMain__picture--vocesabia{
 	width: 30%;
+}
+.firstboxFooter{
+	display: flex;
+	justify-content: space-around;
+	color: #85C226;
+	background-color: #333333;
+}
+.firstboxFooter__contato{
+	/*height: 300px;
+	width: 300px;*/
+
+}
+.firstboxFooter__paragraphcolor{
+	color: #E67816;
+}
+.firstboxFooter__title, .firstboxFooter__contato, .firstboxFooter__parceiros {
+	/*color: #85C226;*/
+	width: 30vw;
+	font-size: 12px;
+}
+.firstboxFooter__parceiros{
+	display: flex;
+	flex-direction: column;
+}
+.firstboxFooter__parceiros--first{
+	color: #E67816;
+}
+.firstboxFooter__parceiros--second{
+		color: #E67816;
+}
+.firstboxFooter__picture{
+	width: 30px;
+	height: 30px;
+}
+.block{
+	display: flex;
 }
