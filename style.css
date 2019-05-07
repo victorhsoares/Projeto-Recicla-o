@@ -87,8 +87,11 @@ header {
 .thirdboxMain__title{
 	font-size: 38px;
 	color: #85C226;
+
 	padding-top: 30px;
 	/*height: 250px;*/
+
+	height: 250px;
 }
 
 .thirdboxMain__graphic{
@@ -157,8 +160,11 @@ header {
 	height: 50%;
 }
 .fifthboxMain__picture--vocesabia{
+
 	width: 350px;
 	height: 300px;
+	width: 30%;
+
 }
 .firstboxFooter{
 	display: flex;
