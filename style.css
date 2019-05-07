@@ -10,9 +10,14 @@ header {
 	text-align: center;
 	justify-content: space-between;
 }
+.firstboxMain__fundohome{
+	width: 100vw;
+	height: 80vh;
+}
 .firstboxHeader__logo {
-	width:110px;
-	height:100px;
+	width:80px;
+	height:80px;
+	margin-left: 40px;
 }
 .firstboxHeader__nav {
 	color: #E67816;
@@ -37,10 +42,16 @@ header {
 	color: #E67816;
 	display: flex;
 }
+.firstboxMain__picture{
+	padding: 20px;
+	margin: 10px;
+}
 .secondboxMain{
-	background-image: url(assets/garoto-reciclando.jpg);
+	background-image: url(assets/fundo-acoes.jpg);
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	background-size: 100% 50vh;
 }
 .secondboxMain__title{
 	font-size: 32px;
@@ -76,6 +87,8 @@ header {
 .thirdboxMain__title{
 	font-size: 38px;
 	color: #85C226;
+	padding-top: 30px;
+	/*height: 250px;*/
 }
 
 .thirdboxMain__graphic{
@@ -113,7 +126,6 @@ header {
 	border-radius:50%;
     width:20px;
     height:20px;
-   
     background-color: #00923F;
 }
 
@@ -121,32 +133,65 @@ header {
 	border-radius:50%;
     width:20px;
     height:20px;
-    
     background-color: #E67816;
 }
 
 .fifthboxMain{
 	width: 100%;
-	/*justify-content: space-around;*/
 	background-color: #85C226;
 }
-
 .fifthboxMain__title{
 	font-size: 36px;
 	color: #fff;
+	padding: 20px;
 }
 .fifthboxMain__subtitle{
 	font-size: 26px;
 	color: #00923F;
+	padding-left: 20px;
 }
-
 .fifthboxMain__picture{
-
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
+	height: 50%;
 }
-
 .fifthboxMain__picture--vocesabia{
-	width: 30%;
+	width: 350px;
+	height: 300px;
+}
+.firstboxFooter{
+	display: flex;
+	justify-content: space-around;
+	color: #85C226;
+	background-color: #333333;
+}
+.firstboxFooter__contato{
+	/*height: 300px;
+	width: 300px;*/
+}
+.firstboxFooter__paragraphcolor{
+	color: #E67816;
+}
+.firstboxFooter__title, .firstboxFooter__contato, .firstboxFooter__parceiros {
+	/*color: #85C226;*/
+	width: 30vw;
+	font-size: 12px;
+}
+.firstboxFooter__parceiros{
+	display: flex;
+	flex-direction: column;
+}
+.firstboxFooter__parceiros--first{
+	color: #E67816;
+}
+.firstboxFooter__parceiros--second{
+		color: #E67816;
+}
+.firstboxFooter__picture{
+	width: 30px;
+	height: 30px;
+}
+.block{
+	display: flex;
 }
