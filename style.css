@@ -5,14 +5,33 @@
 	font-family: 'Roboto Slab', serif;
 	text-decoration: none;
 }
+.testdiv {
+	background-image: url(assets/fundohome.jpg);
+	background-repeat: no-repeat;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 header {
 	display: flex;
 	text-align: center;
 	justify-content: space-between;
 }
 .firstboxMain__fundohome{
-	width: 100vw;
-	height: 80vh;
+	/*width: 99vw;
+	height: 70vh;*/
+}
+.firstboxMain__logohome{
+	width: 500px;
+	height: 200px;
+}
+.firstboxMain__paragraph--logo{
+	font-size: 30px;
+	color: #fff;
+	font-weight: bold;
+	width: 340px;
 }
 .firstboxHeader__logo {
 	width:50px;
@@ -72,7 +91,7 @@ header {
 	font-weight: bold;
 	color: #E67816;
 	background-color: #fff;
-	margin: 20px 10px 20px 30px;
+	margin-bottom: 30px;
 	padding: 5px 10px 5px 10px;
 }
 .secondboxMain__subtitle{
@@ -155,7 +174,6 @@ header {
 	height: 50%;
 }
 .fifthboxMain__picture--vocesabia{
-
 	width: 350px;
 	height: 300px;
 	width: 30%;
