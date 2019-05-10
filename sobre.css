@@ -77,3 +77,22 @@ header {
  	/*height: 450px;*/
 
  }
+ .objetivosbox{
+ 	display: flex;
+ 	background-color: #fff;
+ 	align-items: center;
+ }
+
+ .objetivosbox__title{
+ 	font-size: 35px;
+ 	color: #00923F;
+ }
+ .objetivosbox__Gerais{
+
+ }
+ .objetivosbox__Gerais--title{
+
+ }
+ .objetivosbox__Gerais--paragraph{
+ 	
+ }
