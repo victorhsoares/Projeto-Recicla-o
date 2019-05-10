@@ -53,10 +53,60 @@ header {
 }
 .secondboxMain{
 	background-image: url(assets/fundo-acoes.jpg);
-	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 10px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
-	background-size: 100% 50vh;
+	
+}
+.secondboxMain__calendar{
+	width: 250px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+}
+.secondboxMain__blocktitle{
+	text-align: center;
+}
+
+.actionbox__calendarlist{
+	display: flex;
+
+}
+
+.secondboxMain__calendar--title{
+	font-size: 19px;
+	color: #00923F;
+	/*text-align: center;*/
+}
+.secondboxMain__blocknumber{
+	display: flex;
+	flex-direction: column;
+}
+.secondboxMain__blockparagraph{
+	display: flex;
+	flex-direction: column;
+	padding-top: 12px;
+}
+.secondboxMain__calendar--number{
+	font-size: 23pt;
+	padding: 0px 10px 0px 0px;
+	color: #85C226;
+}
+.secondboxMain__calendar--month{
+	color: #85C226;
+}
+.secondboxMain__calendar--paragraphfirst{
+	font-size: 9px;
+	color: #85C226;
+}
+.secondboxMain__calendar--paragraph{
+	font-size: 10px;
+	color: #7AC49F;
 }
 .secondboxMain__title{
 	font-size: 32px;
@@ -72,8 +122,9 @@ header {
 	font-weight: bold;
 	color: #E67816;
 	background-color: #fff;
-	margin: 20px 10px 20px 30px;
-	padding: 5px 10px 5px 10px;
+	/*margin: 20px 10px 20px 30px;
+	padding: 5px 10px 5px 10px;*/
+	line-height: 32px;
 }
 .secondboxMain__subtitle{
 	color:#00923F;
