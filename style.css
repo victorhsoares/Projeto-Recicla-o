@@ -20,8 +20,8 @@ header {
 	justify-content: space-between;
 }
 .firstboxMain__fundohome{
-	/*width: 99vw;
-	height: 70vh;*/
+	width: 99vw;
+	height: 70vh;
 }
 .firstboxMain__logohome{
 	width: 500px;
