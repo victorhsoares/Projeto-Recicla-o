@@ -63,20 +63,26 @@ header {
 }
 .secondboxMain__text{
 	color: #fff;
+	padding: 20px;
 
 }
 .secondboxMain__text--title{
 	font-size: 38px;
 	color: #85C226;
+	padding: 25px;
 
 }
+.secondboxMain__paragraph{
+	width: 560px;
+}
 .secondboxMain__picture{
-	
+	padding: 40px 20px 30px 20px;
+	width: 600px;
+	height: 380px;
 }
  .secondboxMain__picture--photo{
  	width: 500px;
  	height: 350px;
-
  }
  .firstboxFooter{
 	display: flex;
@@ -85,7 +91,7 @@ header {
 	background-color: #333333;
 }
 .firstboxFooter__contato{
-	/*height: 300px;
+/*	height: 300px;
 	width: 300px;*/
 }
 .firstboxFooter__paragraphcolor{

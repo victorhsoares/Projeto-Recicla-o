@@ -51,6 +51,10 @@ header {
 	padding: 20px 0px 10px 25px;
 	margin-top: 40px;
 }
+.firstboxMain__paragraph{
+	 width: 500px;
+    padding: 20px 0px 20px 20px;
+}
 .secondboxMain{
 	display: flex;
 	justify-content: space-between;
