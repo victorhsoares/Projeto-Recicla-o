@@ -37,7 +37,6 @@ header {
 	display: flex;
 	justify-content: space-between;
 	background-image: url(assets/fundohome.jpg);
-	background-repeat: no-repeat;
 	
 }
 .firstboxMain__text{
@@ -60,20 +59,16 @@ header {
 	display: flex;
 	justify-content: space-between;
 	background: #333333;
+	height: 500px;
 }
 .secondboxMain__text{
 	color: #fff;
-	padding: 20px;
 
 }
 .secondboxMain__text--title{
 	font-size: 38px;
 	color: #85C226;
-	padding: 25px;
 
-}
-.secondboxMain__paragraph{
-	width: 560px;
 }
 .secondboxMain__picture{
 	padding: 40px 20px 30px 20px;
@@ -84,14 +79,145 @@ header {
  	width: 500px;
  	height: 350px;
  }
- .firstboxFooter{
+ .secondboxMain__paragraph{
+	width: 560px;
+}
+ .objetivosbox{
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: space-around;
+ 	background-color: #fff;
+ 	
+ }
+
+ .objetivosbox__title{
+ 	font-size: 35px;
+ 	text-align: center;
+ 	color: #00923F;
+ }
+ .objetivosbox__Gerais{
+ 	display: flex;
+ 	flex-direction: column;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-image: url(assets/1912173_900290656693146_5341338124391531915_n.jpg);
+ }
+ .objetivosbox__Gerais--title{
+ 	font-size: 30px;
+ 	color: #FFF974;
+
+}
+ .objetivosbox__Gerais--paragraph{
+ 	font-size: 19px;
+ 	text-align: center;
+ 	width: 400px;
+ 	height: 400px;
+ 	color: #FFF974;
+ }
+ .objetivosbox__Específicos{
+ 
+ 	display: flex;
+ 	flex-direction: column;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-image: url(assets/fundo-acoes.jpg);
+ }
+
+ .objetivosbox__Específicos--title{
+ 	font-size: 30px;
+ 	color: #FFF974;
+ }
+
+ .objetivosbox__Específicos--paragraph{
+ 	font-size: 19px;
+ 	line-height: 35px;
+ 	/*text-align: justify-all*/;
+ 	width: 400px;
+ /*	height: 400px;*/
+ 	color:  #FFF974;
+ }
+ .test {
+ 	padding: 20px;
+ 	display: flex;
+ 	justify-content: space-around;
+
+ }
+ .ciclobox{
+
+ 	background-color: #0E9347;
+ }
+ .cicloboxtop, .cicloboxmid, .cicloboxend{
+ 	display: flex;
+ 	padding: 20px;
+ 	justify-content: space-around;
+ }
+ .cicloboxtop__text, .cicloboxend__text{
+ 	font-size: 13px;
+ 	width: 140px;
+ 	color: #FFF974;
+ }
+ .cicloboxtop__arrowrigth{
+ 	width: 100px;
+ 	height: 38px;
+
+ }
+
+ .cicloboxmid__arrowup,.cicloboxmid__arrowdown{
+ 	width:30px; 
+ 	height:90px;
+ }
+ .blockcicleboxmid__text{
+ 	display: inline-block;
+ }
+ .cicloboxmid__text{
+ 	font-size: 38px;
+ 	text-align: center;
+ 	font-weight: bold;
+ 	color: #fff;
+ }
+.cicloboxend__arrowleft{
+	width: 100px;
+ 	height: 38px;
+}
+.resultadosbox{
+	text-align: center;
+	height: 80vh;
+	background-color: #7AC49F;
+}
+.resultadosbox__title{
+	font-size: 38px;
+	color: #fff;
+}
+.resultadosbox__blockpictures{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.resultadosbox__pictures{
+	width: 200;
+	height: 110px;
+}
+.boxtest{
+
+}
+
+.resultadosbox__text{
+	font-size: 10px;
+	margin-left: 10px;
+	margin-right: 20px;
+	padding: 20px 0px 0px 30px;
+	width: 110px;
+	height: 75px;
+	color: #fff;
+}
+.firstboxFooter{
 	display: flex;
 	justify-content: space-around;
 	color: #85C226;
 	background-color: #333333;
 }
 .firstboxFooter__contato{
-/*	height: 300px;
+	/*height: 300px;
 	width: 300px;*/
 }
 .firstboxFooter__paragraphcolor{
