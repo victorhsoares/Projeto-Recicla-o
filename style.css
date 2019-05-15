@@ -5,34 +5,10 @@
 	font-family: 'Roboto Slab', serif;
 	text-decoration: none;
 }
-.testdiv {
-	background-image: url(assets/fundohome.jpg);
-	background-repeat: no-repeat;
-	height: 80vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-size: cover;
-}
 header {
 	display: flex;
 	text-align: center;
 	justify-content: space-between;
-}
-.firstboxMain__fundohome{
-	width: 99vw;
-	height: 70vh;
-}
-.firstboxMain__logohome{
-	width: 500px;
-	height: 200px;
-}
-.firstboxMain__paragraph--logo{
-	font-size: 30px;
-	color: #fff;
-	font-weight: bold;
-	width: 340px;
 }
 .firstboxHeader__logo {
 	width:50px;
@@ -43,6 +19,26 @@ header {
 	color: #E67816;
 	font-size: 25px;
 	padding: 10px;
+}
+.boxlogo {
+	background-image: url(assets/fundohome.jpg);
+	background-repeat: no-repeat;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+}
+.firstboxMain__logohome{
+	width: 500px;
+	height: 200px;
+}
+.firstboxMain__paragraph--logo{
+	font-size: 30px;
+	color: #fff;
+	font-weight: bold;
+	width: 340px;
 }
 .firstboxMain{
 	display: flex;
@@ -77,65 +73,16 @@ header {
 .firstboxMain__picture--sobre{
 	padding: 20px;
 }
-.secondboxMain__calendar{
-	width: 250px;
-	height: 350px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #fff;
-	z-index: 5;
-	margin: 10px;
-}
-.secondboxMain__blocktitle{
-	text-align: center;
-}
-
-.actionbox__calendarlist{
-	display: flex;
-}
-.secondboxMain__calendar--title{
-	font-size: 19px;
-	color: #00923F;
-}
-.secondboxMain__blocknumber{
-	display: flex;
-	flex-direction: column;
-}
-.secondboxMain__blockparagraph{
-	display: flex;
-	flex-direction: column;
-	padding-top: 12px;
-}
-.secondboxMain__calendar--number{
-	font-size: 23pt;
-	padding: 0px 10px 0px 0px;
-	color: #85C226;
-}
-.secondboxMain__calendar--month{
-	color: #85C226;
-}
-.secondboxMain__calendar--paragraphfirst{
-	font-size: 9px;
-	color: #85C226;
-}
-.secondboxMain__calendar--paragraph{
-	font-size: 10px;
-	color: #7AC49F;
-}
 .secondboxMain{
 	background-image: url(assets/fundo-acoes.jpg);
-
 	width: 100%;
 	height: 70vh;
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 10px;
-
+	/*padding: 10px;*/
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -152,6 +99,81 @@ header {
 	z-index: 5;
 	padding: 15px;	
 }
+.secondboxMain__title{
+	font-size: 40px;
+	color: #fff;
+	margin:20px 0px 10px 28px;
+}
+.secondboxMain__backlist{
+	display: flex;
+	flex-direction: column;
+	z-index: 5;
+ }
+.secondboxMain__list{
+	font-size: 32px;
+	font-weight: bold;
+	color: #E67816;
+	background-color: #fff;
+	margin-bottom: 30px;
+	padding: 5px 10px 5px 10px;
+	/*margin: 20px 10px 20px 30px;
+	padding: 5px 10px 5px 10px;*/
+	line-height: 32px;
+}
+.secondboxMain__calendar{
+	width: 250px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	z-index: 5;
+	margin: 10px;
+}
+.secondboxMain__blocktitle{
+	text-align: center;
+}
+.secondboxMain__calendar--title{
+	font-size: 19px;
+	color: #00923F;
+}
+.actionbox__calendarlist{
+	display: flex;
+}
+.secondboxMain__blocknumber{
+	display: flex;
+	flex-direction: column;
+}
+.secondboxMain__calendar--number{
+	font-size: 23pt;
+	padding: 0px 10px 0px 0px;
+	color: #85C226;
+}
+.secondboxMain__calendar--month{
+	color: #85C226;
+}
+.secondboxMain__blockparagraph{
+	display: flex;
+	flex-direction: column;
+	padding-top: 12px;
+}
+.secondboxMain__calendar--paragraphfirst{
+	font-size: 9px;
+	color: #85C226;
+}
+.secondboxMain__calendar--paragraph{
+	font-size: 10px;
+	color: #7AC49F;
+}
+.secondboxMain__blocknumber{
+	display: flex;
+	flex-direction: column;
+}
+.secondboxMain__blockparagraph{
+	display: flex;
+	flex-direction: column;
+	padding-top: 12px;
+}
 .secondboxMain__calendar{
 	width: 250px;
 	height: 350px;
@@ -163,25 +185,13 @@ header {
 .secondboxMain__blocktitle{
 	text-align: center;
 }
-
 .actionbox__calendarlist{
 	display: flex;
-
 }
-
 .secondboxMain__calendar--title{
 	font-size: 19px;
 	color: #00923F;
 	/*text-align: center;*/
-}
-.secondboxMain__blocknumber{
-	display: flex;
-	flex-direction: column;
-}
-.secondboxMain__blockparagraph{
-	display: flex;
-	flex-direction: column;
-	padding-top: 12px;
 }
 .secondboxMain__calendar--number{
 	font-size: 23pt;
@@ -198,33 +208,6 @@ header {
 .secondboxMain__calendar--paragraph{
 	font-size: 10px;
 	color: #7AC49F;
-
-}
-.secondboxMain__title{
-	font-size: 40px;
-	color: #fff;
-	margin:20px 0px 10px 28px;
-}
-.secondboxMain__backlist{
-	display: flex;
-	flex-direction: column;
-	z-index: 5;
- }
-.secondboxMain__list{
-	font-size: 32px;
-	font-weight: bold;
-	color: #E67816;
-	background-color: #fff;
-
-	margin-bottom: 30px;
-	padding: 5px 10px 5px 10px;
-
-	/*margin: 20px 10px 20px 30px;
-	padding: 5px 10px 5px 10px;*/
-	line-height: 32px;
-}
-.secondboxMain__subtitle{
-	color:#00923F;
 }
 .secondboxMain__calendar{
 	background-color: #fff;
@@ -235,6 +218,12 @@ header {
 	justify-content: space-around;
 	background-color: #333333;
 }
+.thirdboxMain__impacto{
+	width: 500px;
+	height: 400px;
+	font-size: 13px;
+	color: #fff;
+}
 .thirdboxMain__title{
 	font-size:38px;
 	color: #85C226;
@@ -243,15 +232,6 @@ header {
 .thirdboxMain__paragraph{
 	padding: 15px 0px 10px 0px;
 	text-align: justify-all;
-}
-.thirdboxMain__impacto{
-	width: 500px;
-	height: 400px;
-	font-size: 13px;
-	color: #fff;
-}
-.thirdboxMain_subtitle{
-	color: #fff;
 }
 .fourthboxMain{
 	display: flex;
@@ -313,17 +293,20 @@ header {
 	color: #85C226;
 	background-color: #333333;
 }
-.firstboxFooter__contato{
-	/*height: 300px;
-	width: 300px;*/
-}
-.firstboxFooter__paragraphcolor{
-	color: #E67816;
-}
 .firstboxFooter__title, .firstboxFooter__contato, .firstboxFooter__parceiros {
 	/*color: #85C226;*/
 	width: 30vw;
 	font-size: 12px;
+}
+.firstboxFooter__picture{
+	width: 30px;
+	height: 30px;
+}
+.firstboxFooter__paragraphcolor{
+	color: #E67816;
+}
+.block{
+	display: flex;
 }
 .firstboxFooter__parceiros{
 	display: flex;
@@ -333,12 +316,5 @@ header {
 	color: #E67816;
 }
 .firstboxFooter__parceiros--second{
-		color: #E67816;
-}
-.firstboxFooter__picture{
-	width: 30px;
-	height: 30px;
-}
-.block{
-	display: flex;
+	color: #E67816;
 }

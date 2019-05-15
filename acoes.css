@@ -76,10 +76,6 @@ header {
 .secondboxMain__text--title{
 	font-size: 38px;
 	color: #85C226;
-
-}
-.secondboxMain__picture{
-	
 }
  .secondboxMain__picture--photo{
  	width: 500px;
@@ -87,7 +83,6 @@ header {
  }
  .coffeebox {
  	display: flex;
- 	
  	background-color: #333333;
  }
  .coffeebox__text{

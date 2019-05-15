@@ -12,7 +12,7 @@ header {
 }
 .firstboxHeader__logo {
 	width: 50px;
-	height:50px;
+	height: 50px;
 	margin-left: 40px;
 }
 .firstboxHeader__nav {
@@ -37,7 +37,6 @@ header {
 	display: flex;
 	justify-content: space-between;
 	background-image: url(assets/fundohome.jpg);
-	
 }
 .firstboxMain__text{
 	color: #FFFFFF;
@@ -63,12 +62,13 @@ header {
 }
 .secondboxMain__text{
 	color: #fff;
-
 }
 .secondboxMain__text--title{
 	font-size: 38px;
 	color: #85C226;
-
+}
+ .secondboxMain__paragraph{
+	width: 560px;
 }
 .secondboxMain__picture{
 	padding: 40px 20px 30px 20px;
@@ -76,25 +76,24 @@ header {
 	height: 380px;
 }
  .secondboxMain__picture--photo{
-
  	width: 500px;
  	height: 350px;
  }
- .secondboxMain__paragraph{
-	width: 560px;
-}
  .objetivosbox{
  	display: flex;
  	flex-direction: column;
  	align-items: space-around;
  	background-color: #fff;
- 	
  }
-
  .objetivosbox__title{
  	font-size: 35px;
  	text-align: center;
  	color: #00923F;
+ }
+ .objetivos_gerais--especificos{
+ 	padding: 20px;
+ 	display: flex;
+ 	justify-content: space-around;
  }
  .objetivosbox__Gerais{
  	display: flex;
@@ -106,7 +105,6 @@ header {
  .objetivosbox__Gerais--title{
  	font-size: 30px;
  	color: #FFF974;
-
 }
  .objetivosbox__Gerais--paragraph{
  	font-size: 19px;
@@ -116,35 +114,23 @@ header {
  	color: #FFF974;
  }
  .objetivosbox__Específicos{
- 
  	display: flex;
  	flex-direction: column;
  	background-size: cover;
  	background-repeat: no-repeat;
  	background-image: url(assets/fundo-acoes.jpg);
  }
-
  .objetivosbox__Específicos--title{
  	font-size: 30px;
  	color: #FFF974;
  }
-
  .objetivosbox__Específicos--paragraph{
  	font-size: 19px;
  	line-height: 35px;
- 	/*text-align: justify-all*/;
  	width: 400px;
- /*	height: 400px;*/
  	color:  #FFF974;
  }
- .test {
- 	padding: 20px;
- 	display: flex;
- 	justify-content: space-around;
-
- }
  .ciclobox{
-
  	background-color: #0E9347;
  }
  .cicloboxtop, .cicloboxmid, .cicloboxend{
@@ -160,22 +146,13 @@ header {
  .cicloboxtop__arrowrigth{
  	width: 100px;
  	height: 38px;
-
- }
-
-
- 	width: 600px;
- 	height: 450px;
-
  }
  .objetivosbox{
  	display: flex;
  	flex-direction: column;
  	align-items: space-around;
  	background-color: #fff;
- 	
  }
-
  .objetivosbox__title{
  	font-size: 35px;
  	text-align: center;
@@ -213,9 +190,7 @@ header {
  .objetivosbox__Específicos--paragraph{
  	font-size: 19px;
  	line-height: 35px;
- 	/*text-align: justify-all*/;
  	width: 400px;
- /*	height: 400px;*/
  	color:  #FFF974;
  }
  .test {
@@ -259,7 +234,7 @@ header {
 }
 .resultadosbox{
 	text-align: center;
-	height: 80vh;
+	height: 60vh;
 	background-color: #7AC49F;
 }
 .resultadosbox__title{
@@ -275,7 +250,6 @@ header {
 	width: 200;
 	height: 110px;
 }
-.boxtest{}
 .resultadosbox__text{
 	font-size: 10px;
 	margin-left: 10px;
