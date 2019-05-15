@@ -103,3 +103,19 @@ header {
 .block{
 	display: flex;
 }
+.testando{
+	width: 150px;
+    height: 200px;
+    text-align: center;
+	background-color: #E67816;
+}
+.boxquiz__saude--paragraph{
+	margin-top: 40px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 17px;
+}
+.consumo__main{
+	background-color: #85C226;
+    height: 150vh;
+}

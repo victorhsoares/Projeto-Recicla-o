@@ -270,6 +270,9 @@ header {
 	padding: 15px 0px 10px 0px;
 	text-align: justify-all;
 }
+.thirdboxMain__grafico{
+	margin-top: 40px;
+}
 .fourthboxMain{
 	display: flex;
 }
