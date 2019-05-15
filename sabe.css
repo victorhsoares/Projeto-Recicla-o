@@ -7,6 +7,7 @@
 }
 main{
 	background-color:#85C226;
+	height: 190vh;
 }
 header {
 	display: flex;
@@ -23,23 +24,49 @@ header {
 	font-size: 25px;
 	padding: 10px;
 }
-.boxquiz{
-	display:flex;
-}
 .boxquiz__title{
-	font-size: 38px;
+	font-size: 40px;
 	color: #fff;
+	padding: 30px 30px 0px 30px;
 }
 .boxquiz__subtitle{
 	color: #00923F;
+	margin-left: 25px;
+}
+.boxquiz{
+	/*display:flex;*/
+}
+.boxquiz__question{
+	font-size: 20px;
+	padding: 15px;
+	color: #FFF;
+	font-weight: bold;
+}
+.boxquiz__block{
+	display: flex;
+	width: 60vw;
 }
 .boxquiz__tampa{
- display: flex;
-
+ 	display: flex;
+ 	width: 180px;
+ 	height: 220px;
+ 	background-color: #FFF;
+ 	margin-left: 20px;
+ 	justify-content: center;
+ 	padding: 15px;
+ 	flex-direction: column;
 }
 .boxquiz__picture--tampa{
-	width:270px;
-	height:300px;
+	height:150px;
+}
+.boxquiz__picture--agua{
+	height:150px;
+	text-align: center;
+	color: #FFF;
+}
+.boxquiz__input{
+ 	width: 20px;
+ 	margin: 10px;
 }
 .firstboxFooter{
 	display: flex;
