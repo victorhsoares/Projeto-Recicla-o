@@ -7,8 +7,10 @@
 }
 main{
 	background-color:#85C226;
-	height: 190vh;
+	height: auto;
+	padding-bottom: 10px;
 }
+
 header {
 	display: flex;
 	text-align: center;
@@ -35,6 +37,17 @@ header {
 }
 .boxquiz{
 	/*display:flex;*/
+	
+}
+.boxquiz__block{
+	width: 70%;
+}
+@media(max-width: 605px){
+	.boxquiz__block{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
 }
 .boxquiz__question{
 	font-size: 20px;
@@ -56,6 +69,11 @@ header {
  	padding: 15px;
  	flex-direction: column;
 }
+@media(max-width: 768px){
+	.boxquiz_tampa{
+		flex-direction: column;
+	}
+}
 .boxquiz__picture--tampa{
 	height:150px;
 }
@@ -67,6 +85,18 @@ header {
 .boxquiz__input{
  	width: 20px;
  	margin: 10px;
+}
+.testando{
+	width: 150px;
+    height: 200px;
+    text-align: center;
+	background-color: #E67816;
+}
+.boxquiz__saude--paragraph{
+	margin-top: 40px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 17px;
 }
 .firstboxFooter{
 	display: flex;
@@ -102,20 +132,4 @@ header {
 }
 .block{
 	display: flex;
-}
-.testando{
-	width: 150px;
-    height: 200px;
-    text-align: center;
-	background-color: #E67816;
-}
-.boxquiz__saude--paragraph{
-	margin-top: 40px;
-	color: #FFF;
-	font-weight: bold;
-	font-size: 17px;
-}
-.consumo__main{
-	background-color: #85C226;
-    height: 150vh;
 }
