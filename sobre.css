@@ -9,28 +9,91 @@ header {
 	display: flex;
 	text-align: center;
 	justify-content: space-between;
+	flex-direction: column;
+}
+label{
+    margin: 7px 25px 0px 0px;
+    font-size: 45px;
+    display: none;
+    width:80px;
+    /*text-align: center;*/
+    /*border-radius: 50%;*/
+    float: right;
+    color:#E3771A;
+  }
+  #mobile{
+    display: none;
+}
+
+@media(max-width: 768px){
+	.firstboxHeader__nav{
+		display: none;
+	}
+}
+@media(max-width:768px){
+    label{
+      display: block;
+      cursor: pointer;
+    }
+    .blockheader{
+     	position: absolute;
+		left: 0; 
+    }
+    .blockheader:hover{
+    	position:static;
+    }
+    .secondboxHeader__navLink{
+	    /* display: block; */
+	    width: 34%;
+	    font-size: 24px;
+	    text-align:start;
+	    float: left;
+	    background-color: white;
+    }
+    #mobile:checked ~ .secondboxHeader__subnav{
+      display: block;
+    }
+}
+.navbar{
+	margin:10px;
+	font-weight: bold;
+}
+.secondboxHeader__navLink{
+	color: #E67816;
+	font-size: 20px;
+	padding: 10px;
+}
+.divnav{
+	display:flex;
+	justify-content: space-between;
 }
 .firstboxHeader__logo {
 	width: 50px;
 	height: 50px;
 	margin-left: 40px;
 }
+@media(max-width: 768px){
+	.firstboxHeader__logo {
+		display: none;
+	}
+}
 .firstboxHeader__nav {
 	color: #E67816;
-	font-size: 25px;
-	padding: 10px;
+	font-size: 19px;
+	padding: 32px
 }
 .secondboxHeader__subnav{
 	background: #FFF974;
-	border-style: solid;
-	border-color: #7AC49F;
-	border-width: 2px;
+	border:solid 1px #7AC49F;
 	display: flex;
 	justify-content: flex-end;
 }
-.secondboxHeader__nav{
-	padding: 20px;
-	color: #E67816;
+@media(max-width: 768px){
+	    .secondboxHeader__subnav{
+		/*text-align: center;*/
+		width: 100%;
+		display: none;
+    }
 }
 .firstboxMain{
 	height: 67vh;
