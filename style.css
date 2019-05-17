@@ -11,7 +11,7 @@ header {
 	text-align: center;
 	justify-content: space-between;
 }
-  label{
+label{
     margin: 7px 25px 0px 0px;
     font-size: 45px;
     display: none;
@@ -22,7 +22,7 @@ header {
   #mobile{
     display: none;
   }
-.navbar{
+.secondboxHeader__subnav{
 	margin-right: 30px;
     padding: 31px 0 0 0;
 }
@@ -31,6 +31,7 @@ header {
 	justify-content: space-between;
 }
 .firstboxHeader__logo {
+	/* width: 50px; */
     height: 90px;
     margin-left: 19px;
     padding: 11px;
@@ -40,8 +41,12 @@ header {
 		display: none;
 	}
 }
+.navbar{
+	display: flex;
+	align-items: center;
+}
 .navbarLink{
-	color: #E67816;
+	color:#E67816;
 	font-size: 20px;
 	font-weight: bold;
 	padding: 10px;
@@ -80,6 +85,7 @@ header {
 	.firstboxMain__paragraph--logo{
 		width:60%;
 		text-align: center;
+		/*font-size: 20px;*/
 	}
     label{
       display: block;
@@ -93,10 +99,12 @@ header {
     	position:static;
     }
     .navbar{
+		/*text-align: center;*/
 		width: 100%;
 		display: none;
     }
     .navbarLink{
+	    /* display: block; */
 	    width: 34%;
 	    font-size: 24px;
 	    text-align:start;
@@ -106,6 +114,7 @@ header {
     #mobile:checked ~ .navbar{
       display: block;
     }
+
 }
 @media(max-width:567px){
 	.firstboxMain__paragraph--logo{
@@ -129,8 +138,7 @@ header {
 	width: 50%;
     height: auto;
     font-size: 14px;
-}
-.firstboxMain__title{
+    /* padding: 20px; */
 }
 .firstboxMain__title{
 	/*width: 100%;*/
@@ -142,8 +150,7 @@ header {
 }
 .firstboxMain__paragraph{
 	width:100%;
-  padding: 6px 0 10px 16px;
-  padding: 6px 0px 10px 16px;
+    padding: 6px 0px 10px 16px;
 }
 .firstboxMain__subtitle{
 	height:64px
@@ -188,19 +195,17 @@ header {
 .secondboxMain{
 	background-image: url(assets/fundo-acoes.jpg);
 	width: 100%;
+	/*height:75vh;*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
-	background-size: cover;
-	background-repeat: no-repeat;
-	display: flex;
+	/*flex-wrap: wrap;*/
 	justify-content: space-between;
 	position: relative;
 }
 @media(max-width:870px){
 	.secondboxMain{
 		flex-direction:column;
-		align-items: center;
 	}
 	.secondboxMain__calendar{
 	position: relative;
@@ -221,7 +226,6 @@ header {
 .secondboxMain__title{
 	font-size: 40px;
 	color: #fff;
-	margin: 20px 0 10px 0;
 	margin: 20px 0px 10px 0px;
 }
 .secondboxMain__backlist{
@@ -231,23 +235,43 @@ header {
 	line-height: 3;
  }
  .secondboxmainLink{
- 	height:38px
+ 	width: max-content;
+ 	height: max-content;
+    background: white;
+
  }
 .secondboxMain__list{
-	font-size: 30px;
+	font-size: 16px;
 	font-weight: bold;
 	color: #E67816;
 	background-color: #fff;
+	/*margin-bottom: 30px;*/
+	/*padding: 5px 10px 5px 10px;*/
+	/*line-height: 32px;*/
 }
 .secondboxMain__calendar{
-    width: 349px;
+    width: 34%;
     height: 90%;
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
     background-color: #fff;
     z-index: 5;
     margin: 10px;
     padding: 20px;
+}
+@media(max-width:768px){
+	.secondboxMain__calendar{
+		width: 60%;
+	}
+}
+@media(max-width: 425px){
+	.secondboxMain__calendar{
+		width: 75%;
+	}
+	.secondboxMain__list{
+		font-size: 19px;
+	}
 }
 .secondboxMain__blocktitle{
 	text-align: center;
@@ -255,6 +279,7 @@ header {
 .secondboxMain__calendar--title{
     font-size: 22px;
     color: #00923F;
+    /* text-align: center; */
 }
 .actionbox__calendarlist{
 	height:inherit;
@@ -285,14 +310,14 @@ header {
 		display: block;
 	}
 }
+
 .secondboxMain__blocknumber{
 	display: flex;
 	flex-direction: column;
 }
 .secondboxMain__calendar--number{
 	font-size: 30pt;
-  padding: 0 10px 0 0;
-  padding: 0px 10px 0px 0px;
+    padding: 0px 10px 0px 0px;
     color: #85C226;
 }
 .secondboxMain__calendar--month{
@@ -312,38 +337,85 @@ header {
     color: #7AC49F;
 }
 .thirdboxMain{
+	height: auto;
 	display: flex;
 	justify-content: space-around;
 	background-color: #333333;
 }
+@media(max-width: 768px){
+	.thirdboxMain{
+		flex-direction: column;
+		align-items: center;
+	}
+}
 .thirdboxMain__impacto{
-	width: 500px;
-	height: 400px;
-	font-size: 13px;
+	width: 40%;
+	height:auto;
+	font-size: 15px;
 	color: #fff;
+}
+@media(max-width: 768px){
+	.thirdboxMain__impacto{
+		width:80%;
+	}
 }
 .thirdboxMain__title{
 	font-size:38px;
 	color: #85C226;
-	padding:30px 0 30px 0;
+	padding:30px 0px 30px 0px;
+}
+@media(max-width: 768px){
+	.thirdboxMain__title{
+		width: 30px;
+	}
 }
 .thirdboxMain__paragraph{
-	padding: 15px 0 10px 0;
+	padding: 15px 0px 10px 0px;
 	text-align: justify-all;
+}
+.thirdboxMain__blockimage{
+	width: 40%;
+	margin: 45px 0 0 0;
+}
+@media(max-width: 768px){
+	.thirdboxMain__blockimage{
+		width: 80%;
+	}
+}
+.thirdboxMain__picture{
+	width: 100%;
+    height: 305px;
 }
 .fourthboxMain{
 	display: flex;
+	flex-wrap: wrap;
+}
+.fourthboxMain__pontosBlock{
+	display: flex;
+    margin-left: 58%;
+}
+@media(max-width: 768px){
+	.fourthboxMain__pontosBlock{
+		margin-left: 0;
+	}
 }
 .fourthboxMain__pontos{
 	width: 500px;
 	height: 400px;
+	color: #E67816;
 }
 .fourthboxMain__title{
 	font-size: 40px;
 	color: #00923F;
-	padding:50px 0 30px 20px;
+	padding:50px 0px 30px 20px;
+}
+@media(max-width: 768px){
+	.fourthboxMain__title{
+		width: 217px;
+	}
 }
 .fourthboxMain__subtitle{
+	height:124px;
 	font-size: 28px;
 	color: #85C226;
 	padding-left: 20px;
@@ -354,22 +426,24 @@ header {
     height:20px;
     background-color: #00923F;
 }
-.circle{
-	display: flex;
-	justify-content: flex-end;
-}
-.circle__color{
-	color:#E67816;
-	font-weight: bold;
-}
 .fourthboxMain__orangeball{
 	border-radius:50%;
     width:20px;
     height:20px;
     background-color: #E67816;
 }
-.fourthboxMain__imgcoleta{
-	margin:50px 0 20px 30px;
+.fourthboxMain__coleta{
+    width: 50%;
+    margin: 10px 0 0 0;
+}
+@media(max-width:768px){
+	.fourthboxMain__coleta{
+		width: 90%;
+   		margin: 10px 0 0 43px;
+	}
+}
+.fourthboxMain__coletafigure{
+	width:100%;
 }
 .fifthboxMain{
 	width: 100%;
@@ -391,16 +465,34 @@ header {
 	width: 100%;
 	height: 50%;
 }
+@media(max-width: 768px){
+	.fifthboxMain__picture{
+		flex-direction:column;
+	}
+}
 .fifthboxMain__picture--vocesabia{
-	width: 350px;
-	height: 300px;
 	width: 30%;
+	height: 300px;
+	padding: 0 0 10px 0;
+}
+@media(max-width: 768px){
+	.fifthboxMain__picture--vocesabia{
+		width: auto;
+		height: 300px;
+   	 	margin: 20px 0 0 0;
+	}
 }
 .firstboxFooter{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	flex-wrap: wrap;
 	color: #85C226;
 	background-color: #333333;
+}
+@media(max-width: 768px){
+	.firstboxFooter{
+		flex-direction: column;
+	}
 }
 .firstboxFooter__title{
 	width: 30vw;
@@ -426,6 +518,7 @@ header {
 	flex-direction: column;
 }
 .firstboxFooter__parceiros--first{
+	width:50%;
 	color: #E67816;
 }
 .firstboxFooter__parceiros--second{
@@ -434,7 +527,6 @@ header {
 .firstboxMain__paragraph--size{
 	font-size: 10px;
 	line-height: 3;
-	width: 200px;
 }
 .firstboxMain__paragraph--size2{
 	font-size: 10px;
