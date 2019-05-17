@@ -193,11 +193,6 @@ header {
  	width: 400px;
  	color:  #FFF974;
  }
- .test {
- 	padding: 20px;
- 	display: flex;
- 	justify-content: space-around;
- }
  .ciclobox{
   background-color: #0E9347;
  }
@@ -265,19 +260,26 @@ header {
 	color: #85C226;
 	background-color: #333333;
 }
-.firstboxFooter__contato{
-	/*height: 300px;
-	width: 300px;*/
+.firstboxFooter__title{
+	width: 30vw;
+	font-size: 25px;
+}
+.firstboxFooter__picture{
+	width: 30px;
+	height: 30px;
+	padding: 5px;
 }
 .firstboxFooter__paragraphcolor{
 	color: #E67816;
 }
-.firstboxFooter__title, .firstboxFooter__contato, .firstboxFooter__parceiros {
-	/*color: #85C226;*/
-	width: 30vw;
-	font-size: 12px;
+.block{
+	display: flex;
 }
 .firstboxFooter__parceiros{
+	display: flex;
+	flex-direction: column;
+}
+.firstboxFooter__contato{
 	display: flex;
 	flex-direction: column;
 }
@@ -285,12 +287,25 @@ header {
 	color: #E67816;
 }
 .firstboxFooter__parceiros--second{
-		color: #E67816;
+	color: #E67816;
 }
-.firstboxFooter__picture{
-	width: 30px;
-	height: 30px;
+.firstboxMain__paragraph--size{
+	font-size: 10px;
+	line-height: 3;
+	width: 200px;
 }
-.block{
+.firstboxMain__paragraph--size2{
+	font-size: 10px;
+	width: 200px;
+}
+.firstboxMain__paragraph--redes{
+	padding: 5px;
+}
+.firstboxMain__paragraph--redes2{
+	padding: 5px;
+	color: #E67816;
+}
+.firstboxFooter__blockcont {
 	display: flex;
+	margin-top: 15px;
 }
