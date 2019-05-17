@@ -358,6 +358,10 @@ header {
 	display: flex;
 	justify-content: flex-end;
 }
+.circle__color{
+	color:#E67816;
+	font-weight: bold;
+}
 .fourthboxMain__orangeball{
 	border-radius:50%;
     width:20px;

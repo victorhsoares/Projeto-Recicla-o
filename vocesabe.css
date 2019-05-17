@@ -113,10 +113,6 @@ header {
 }
 .block{
 	display: flex;
-.firstboxFooter__title, .firstboxFooter__contato, .firstboxFooter__parceiros {
-	/*color: #85C226;*/
-	width: 30vw;
-	font-size: 12px;
 }
 .firstboxFooter__parceiros{
 	display: flex;
@@ -151,12 +147,4 @@ header {
 .firstboxFooter__blockcont {
 	display: flex;
 	margin-top: 15px;
-		color: #E67816;
-}
-.firstboxFooter__picture{
-	width: 30px;
-	height: 30px;
-}
-.block{
-	display: flex;
 }
