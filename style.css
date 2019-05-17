@@ -124,12 +124,16 @@ header {
     display: flex;
     justify-content: space-around;
 }
+
 .firstboxMain__sobre{
 	width: 50%;
     height: auto;
     font-size: 14px;
 }
 .firstboxMain__title{
+}
+.firstboxMain__title{
+	/*width: 100%;*/
     font-size: 48px;
     color: green;
     font-weight: bold;
@@ -138,7 +142,8 @@ header {
 }
 .firstboxMain__paragraph{
 	width:100%;
-    padding: 6px 0 10px 16px;
+  padding: 6px 0 10px 16px;
+  padding: 6px 0px 10px 16px;
 }
 .firstboxMain__subtitle{
 	height:64px
@@ -186,6 +191,9 @@ header {
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
 	justify-content: space-between;
 	position: relative;
 }
@@ -214,6 +222,7 @@ header {
 	font-size: 40px;
 	color: #fff;
 	margin: 20px 0 10px 0;
+	margin: 20px 0px 10px 0px;
 }
 .secondboxMain__backlist{
 	display: flex;
@@ -282,7 +291,8 @@ header {
 }
 .secondboxMain__calendar--number{
 	font-size: 30pt;
-    padding: 0 10px 0 0;
+  padding: 0 10px 0 0;
+  padding: 0px 10px 0px 0px;
     color: #85C226;
 }
 .secondboxMain__calendar--month{
