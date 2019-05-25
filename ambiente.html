@@ -3,24 +3,27 @@
 	<head>
 		<title>Reciclação-ambiente</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="vocesabe.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 		<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
 		<header>
-			<img class="firstboxHeader__logo" src="assets/Logo_P.svg" alt="logo">
-			<nav>
-				<a class="firstboxHeader__nav" href="index.html">Sobre</a>
-				<a class="firstboxHeader__nav" href="index.html#ações">Ações</a>
-				<a class="firstboxHeader__nav" href="index.html#impacto">Impacto</a>
-				<a class="firstboxHeader__nav" href="index.html#coleta">Pontos de Coleta</a>
-				<a class="firstboxHeader__nav" href="index.html#vcsabe">Você Sabe?</a>
-				<a class="firstboxHeader__nav" href="index.html#contato">Contato</a>
-			</nav>
-		</header>
-		<main>
+			<div class="blockheader">
+				<label for="mobile">&#9776;</label>
+            	<input type="checkbox" id="mobile">
+				<img class="boxheader__logo" src="assets/Logo_P.svg" alt="logo">
+				<nav class="navbar">
+					<a class="navbarLink" href="index.html#sobre">Sobre</a>
+					<a class="navbarLink" href="index.html#ações">Ações</a>
+					<a class="navbarLink" href="index.html#impacto">Impacto</a>
+					<a class="navbarLink" href="index.html#coleta">Pontos de Coleta</a>
+					<a class="navbarLink" href="index.html#vcsabe">Você Sabe?</a>
+					<a class="navbarLink" href="index.html#contato">Contato</a>
+				</nav>
+		</header>		
+		<main class="boxquizmain">
 			<div>
 				<h1 class="boxquiz__title">Você Sabe?</h1>
 				<h2 class="boxquiz__subtitle">Meio Ambiente</h2>
@@ -80,15 +83,21 @@
 					<p class="boxquiz__question">4) Em quais produtos o plástico pode se transformar?</p>
 				<div class="boxquiz__block">	
 					<div class="boxquiz__tampa">
-						<img class="boxquiz__picture--tampa" src="assets/tampa-de-garrafa-pet.jpg">
+						<div class="testando">
+							<p class="boxquiz__saude--paragraph">Óleo de motor e tecido</p>
+						</div>
 						<input class="boxquiz__input" type="checkbox" name="tampa">
 					</div>
 					<div class="boxquiz__tampa">
-						<img class="boxquiz__picture--tampa" src="assets/tampa-de-garrafa-pet.jpg">
+						<div class="testando">
+							<p class="boxquiz__saude--paragraph">Mangueira Vassoura</p>
+						</div>
 						<input class="boxquiz__input" type="checkbox" name="tampa">
 					</div>
 					<div class="boxquiz__tampa">
-						<img class="boxquiz__picture--tampa" src="assets/tampa-de-garrafa-pet.jpg">
+						<div class="testando">
+							<p class="boxquiz__saude--paragraph">Todas as Alternativas</p>
+						</div>
 						<input class="boxquiz__input" type="checkbox" name="tampa">
 					</div>
 				</div>
@@ -99,11 +108,11 @@
 					<h1 class="firstboxFooter__title">Contato</h1>
 					<p class="firstboxMain__paragraph--size2">Rua Gomes Lopes, 12 fundos Morro dos Prazeres - Santa Teresa, RJ</p>
 					<div class="firstboxFooter__blockcont">
-					<img  class="firstboxFooter__picture"src="assets/telefone.svg" alt="">
+					<img  class="firstboxFooter__picture"src="assets/telefone.svg" alt="telefone logo">
 					<p class="firstboxMain__paragraph--redes">+55 21 99227-6574</p>
 					</div>
 					<div class="firstboxFooter__blockcont">
-					<img  class="firstboxFooter__picture"src="assets/facebook.svg" alt="">
+					<img  class="firstboxFooter__picture"src="assets/facebook.svg" alt="facebook logo">
 					<p class="firstboxMain__paragraph--redes2">facebook.com/Reciclacao</p>
 					</div>
 				</div>
