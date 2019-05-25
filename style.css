@@ -498,17 +498,17 @@ label{
 	background-image: url(assets/fundohome.jpg);
 }
 .boxmain__text{
+	width: 220px;
 	color: #FFFFFF;
 	font-size: 13px;
-	width: 220px;
 	text-align: justify-all;
 	margin: 0px 0px 0px 40px;
 }
 .boxmain__text--title{
 	font-size: 41px;
 	color: #fff;
-	padding: 20px 0px 10px 25px;
 	margin-top: 40px;
+	padding: 20px 0px 10px 25px;
 }
 .boxmain__video{
 	padding: 50px 0px 20px 20px;
@@ -516,8 +516,8 @@ label{
 .antecedentesboxmain{
 	display: flex;
 	justify-content: space-between;
-	background: #333333;
 	height: 500px;
+	background: #333333;
 }
 .antecedentesboxmain__text{
 	color: #fff;
@@ -525,18 +525,21 @@ label{
 .antecedentesboxmain__text--title{
 	font-size: 38px;
 	color: #85C226;
+	padding: 25px 0 15px 20px;
 }
  .antecedentesboxmain__paragraph{
 	width: 560px;
+	padding: 25px;
 }
 .antecedentesboxmain__picture{
-	padding: 40px 20px 30px 20px;
 	width: 600px;
 	height: 380px;
+	padding: 40px 20px 30px 20px;
 }
  .antecedentesboxmain__picture--photo{
  	width: 500px;
  	height: 350px;
+ 	padding:20px;
  }
   .objetivosbox{
  	display: flex;
@@ -628,7 +631,7 @@ label{
  	display: inline-block;
  }
  .cicloboxmid__text{
- 	font-size: 38px;
+ 	font-size: 40px;
  	text-align: center;
  	font-weight: bold;
  	color: #fff;
